@@ -3,7 +3,7 @@ const app = express();
 const exec = require("child_process").exec;
 const os = require("os");
 
-const port = process.env.SERVER_PORT || process.env.PORT || 7860;
+const port = process.env.SERVER_PORT2 || process.env.PORT || 7860;
 
 
 console.log(`==============================`);
